@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gotu&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="userCardContainer">
+    <div class="userInfoContainer">
+        <div class="userImageContainer">
+            <img src="https://www.poi.dvo.ru/sites/default/files/default_images/default-avatar-250x250.png" alt="photo">
+        </div>
+        <div class="userTextContainer">
+            <h2> REGISTER </h2>
+        </div>
+        <div class="userTextContainer1">
+            <p> Create your account. It`s free and only takes a minute </p>
+        </div>
+    </div>
+    <form action="#">
+        <div class="userRegister">
+        <input id="FirstName" type="text" name="firstname" placeholder="First Name" required>
+        <input id="LastName" type="text" name="lastname" placeholder="Last Name" required>
+        </div>
+        <div class="userRegister1">
+        <input id="Email" type="text" name="useremail" placeholder="Email" required>
+        <input id="Password" type="password" name="userpassword" placeholder="Password" required>
+        <input id="ConfirmPassword" type="password" name="confirmpassword" placeholder="Confirm Password" required>
+        </div>
+         <label>
+             <div class="userPrivacy">
+                 <input type="radio" name="I accept the Terms of Use & Privacy Police" value="I accept the Terms of Use & Privacy Police" required><span>I accept the Terms of Use & Privacy Police</span>
+             </div>
+         </label>
+        <div class="submitContainer">
+            <button id="submit" type="submit"> Register Now </button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
